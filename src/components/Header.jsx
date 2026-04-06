@@ -1,5 +1,5 @@
-import Inicio from '../assets/descarga.png'
-import BG from '../assets/fondo.png'
+import Inicio from '../assets/controlagro.webp'
+import BG from '../assets/fondo.webp'
 
 export default function Nav(){
     
@@ -49,7 +49,7 @@ export default function Nav(){
                     </div>
                 </div>
             </div>
-            <div className="hidden md:flex items-center justify-center z-1 mt-10"> {/* Añadí un margen superior para separar del texto */}
+            <div className="hidden md:flex items-center justify-center z-1 mt-10"> 
                 <img 
                     className='w-3/4 md:w-1/2 lg:w-[45%] h-auto object-contain drop-shadow-2xl'
                     alt='ControlAgro'

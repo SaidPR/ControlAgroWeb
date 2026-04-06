@@ -1,5 +1,8 @@
 import { useState, useEffect } from 'react'
 import Header from './components/Header'
+import Specs from './components/Specifications'
+import Download from './components/Download'
+import Footer from './components/Footer'
 
 function App() {
   const [showTopBtn, setShowTopBtn] = useState(false);
@@ -18,17 +21,11 @@ function App() {
 
 
   return (
-    <div className='mx-auto min-h-screen font-sans relative scroll-smooth'>
+    <div className='bg-white mx-auto min-h-screen font-sans relative scroll-smooth'>
       <Header/>
-      <div
-        className="absolute bg-white inset-0 z-0"
-        style={{
-          backgroundImage: `
-            radial-gradient(circle 600px at 0% 200px, #bbf7d0, transparent),
-            radial-gradient(circle 600px at 100% 200px, #bbf7d0, transparent)
-          `,
-        }}
-      />
+      <Specs/>
+      <Download/>
+      <Footer/>
 
       {showTopBtn && (
         <button
