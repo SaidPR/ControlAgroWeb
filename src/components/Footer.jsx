@@ -1,6 +1,6 @@
 export default function Footer(){
     return(
-        <footer className="relative w-full" id="CONTACTO">
+        <footer className="relative w-full -bottom-30 lg:-bottom-5" id="CONTACTO">
             <div className="footer-content">
                 <div>
                     <p className="eyebrow-footer">Desarrollado por Said Ramos</p>
