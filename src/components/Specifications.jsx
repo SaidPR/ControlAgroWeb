@@ -5,7 +5,7 @@ export default function Specs(){
     return(
         <section className="relative md:-top-20 lg:-top-5 lg:scroll-m-25" id="DETALLES">
             <div className="grid md:grid-cols-1 lg:grid-cols-2 lg:grid-rows-2 h-auto mt-10">
-                <div className="flex items-center justify-end pr-20 md:pr-25 lg:pr-30 ">
+                <div className="flex items-center justify-end pr-8 md:pr-25 lg:pr-30 ">
                     <img 
                         className='object-scale-down md:w-45 lg:w-65 '
                         alt='Principal'
@@ -14,7 +14,7 @@ export default function Specs(){
                     />
                     
                 </div>
-                <div className="flex flex-col items-center md:items-start justify-center md:justify-start text-center md:text-start mt-5 md:-mt-90 lg:-mt-5 p-10 md:pl-15 lg:p-10 space-y-3.5">
+                <div className="flex flex-col items-center md:items-start justify-center md:justify-start text-start md:text-start mt-5 md:-mt-90 lg:-mt-5 p-10 md:pl-15 lg:p-10 space-y-3.5">
                     <h2 className='text-2xl md:text-2xl lg:text-5xl font-bold tracking-tight leading-tight'>
                         UNA <span className='text-green-600'>APLICACIÓN</span> CON <br/>
                         TODO EN <span className='text-orange-600 underline underline-offset-8'>UNO</span>
@@ -58,7 +58,7 @@ export default function Specs(){
                         </div>
                     </div>
                 </div>
-                <div className="flex items-center justify-start bg-white pl-20 md:pl-30 order-1 lg:order-2">
+                <div className="flex items-center justify-start bg-white pl-10 md:pl-30 order-1 lg:order-2">
                     <img 
                         className='object-contain md:w-45 lg:w-65 drop-shadow-2xl transition-transform hover:scale-105 duration-500'
                         alt='Lista de personal'
